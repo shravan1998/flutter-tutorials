@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
     appBar:AppBar(
       title: Text('my first app'),
       centerTitle: true,
+      backgroundColor: Colors.deepPurple,
     ),
     body: Center(
       child: Text('hello world'),
